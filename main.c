@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void sub1(int *arr, int n);
-void sub2();
+void sub2(int *arr, int n);
+void sub1();
 
 int main(){
 sub1();
@@ -10,7 +10,7 @@ sub2();
 return 0;
 }
 
-int sub1(int *arr, int n)
+int sub2(int *arr, int n)
 {
     int min_index;
     int temp;
